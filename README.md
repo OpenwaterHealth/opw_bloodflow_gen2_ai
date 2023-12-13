@@ -2,7 +2,7 @@
 
 **Blood Flow Waveform Analysis and Classification Scripts for the Openwater Gen2 Bloodflow Device**
 
-This repository houses Python scripts for analyzing and classifying blood flow waveforms, acquired with the Openwater Gen2 bloodflow device, to detect Large Vessel Occlusions(LVOs). The analysis is validated through a [comparative study](https://www.medrxiv.org/content/10.1101/2023.10.11.23296612v1) with Transcranial Doppler (TCD). Refer to the [company wiki](http://162.246.254.83/index.php/Main_Page), [technology summary wiki](http://162.246.254.83/index.php/Openwater_Stroke_Diagnosis_Technology) and [analysis software wiki](http://162.246.254.83/index.php/Blood_Flow_Gen_2_Ananlysis_and_Classification) for further context.
+This repository houses Python scripts for analyzing and classifying blood flow waveforms, acquired with the Openwater Gen2 bloodflow device, to detect Large Vessel Occlusions(LVOs). The device was validated through a [comparative study](https://www.medrxiv.org/content/10.1101/2023.10.11.23296612v1) with Transcranial Doppler (TCD). Refer to the [company wiki](http://162.246.254.83/index.php/Main_Page), [technology summary wiki](http://162.246.254.83/index.php/Openwater_Stroke_Diagnosis_Technology) and [analysis software wiki](http://162.246.254.83/index.php/Blood_Flow_Gen_2_Ananlysis_and_Classification) for further context.
 
 **Requirements:**
 
