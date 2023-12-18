@@ -2,7 +2,7 @@
 
 **Blood Flow Waveform Analysis and Classification Scripts for the Openwater Gen2 Bloodflow Device**
 
-This repository houses Python scripts for analyzing and classifying blood flow waveforms, acquired with the Openwater Gen2 bloodflow device, to detect Large Vessel Occlusions(LVOs). The device was validated through a [comparative study](https://www.medrxiv.org/content/10.1101/2023.10.11.23296612v1) with Transcranial Doppler (TCD). Refer to the [company wiki](http://162.246.254.83/index.php/Main_Page), [technology summary wiki](http://162.246.254.83/index.php/Openwater_Stroke_Diagnosis_Technology) and [analysis software wiki](http://162.246.254.83/index.php/Blood_Flow_Gen_2_Ananlysis_and_Classification) for further context.
+This repository houses Python scripts for analyzing and classifying blood flow waveforms, acquired with the Openwater Gen2 bloodflow device, to detect Large Vessel Occlusions(LVOs). The device was validated through a [comparative study](https://www.medrxiv.org/content/10.1101/2023.10.11.23296612v1) with Transcranial Doppler (TCD) and used in a [clinical study](https://www.medrxiv.org/content/10.1101/2023.12.14.23299992v1) to distinguish between Large Vessel Occlusion(LVO) and non-LVO strokes. Refer to the [company wiki](https://wiki.openwater.health/index.php/Openwater_Wiki), [technology summary wiki](https://wiki.openwater.health/index.php/Openwater_Stroke_Diagnosis_Technology) and [analysis software wiki](https://wiki.openwater.health/index.php/Blood_Flow_Gen_2_LVO_Classification_and_Analysis) for further context.
 
 **Requirements:**
 
@@ -33,9 +33,7 @@ The script `tools/ppg.py` modifies the bandpass filter in `biosppy` to the corre
 * **Deep Learning for LVO classification:** Two versions of deep learning networks are included:
 
     * **Resnet 1D:** Based on the implementation available [here](https://github.com/hsd1503/resnet1d). Scripts `DeepLearning/BloodFlowExperiments64.py` and `DeepLearning/BloodFlowExperiments128.py` train and evaluate the network.
-    * **Transformer 1D:** Published in our clinical paper (to be submitted soon) and used in our FDA breakthrough designation request. Implemented in `DeepLearning/transformer1D.py`.
-
-See our system [validation paper](https://www.medrxiv.org/content/10.1101/2023.10.11.23296612v1) for details on blood flow change measurement validation and our clinical paper (to be submitted soon) for further information.
+    * **Transformer 1D:** Published in our [clinical paper](https://www.medrxiv.org/content/10.1101/2023.12.14.23299992v1) and used in our [FDA breakthrough](https://wiki.openwater.health/index.php/Regulatory) designation request. Implemented in `DeepLearning/transformer1D.py`.
 
 **Additional Notes:**
 
