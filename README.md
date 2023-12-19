@@ -41,7 +41,7 @@ For more information on how to contribute to the project, please refer to the [C
 
 **Investigational Use Only**
 
-CAUTION - Investigational device. Limited by Federal (or United States) law to investigational use. opw_bloodflow_gen2_sw has *not* been evaluated by the FDA and is not designed for the treatment or diagnosis of any disease. It is provided AS-IS, with no warranties. User assumes all liability and responsibility for identifying and mitigating risks associated with using this software.
+CAUTION - Investigational device. Limited by Federal (or United States) law to investigational use. opw_bloodflow_gen2_ai has *not* been evaluated by the FDA and is not designed for the treatment or diagnosis of any disease. It is provided AS-IS, with no warranties. User assumes all liability and responsibility for identifying and mitigating risks associated with using this software.
 
 **Additional Notes:**
 
