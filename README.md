@@ -35,6 +35,14 @@ The script `tools/ppg.py` modifies the bandpass filter in `biosppy` to the corre
     * **Resnet 1D:** Based on the implementation available [here](https://github.com/hsd1503/resnet1d). Scripts `DeepLearning/BloodFlowExperiments64.py` and `DeepLearning/BloodFlowExperiments128.py` train and evaluate the network.
     * **Transformer 1D:** Published in our [clinical paper](https://www.medrxiv.org/content/10.1101/2023.12.14.23299992v1) and used in our [FDA breakthrough](https://wiki.openwater.health/index.php/Regulatory) designation request. Implemented in `DeepLearning/transformer1D.py`.
 
+**Contribution Guide:**
+
+For more information on how to contribute to the project, please refer to the [Contribution Guide](CONTRIBUTING.md).
+
+**Investigational Use Only**
+
+CAUTION - Investigational device. Limited by Federal (or United States) law to investigational use. opw_bloodflow_gen2_sw has *not* been evaluated by the FDA and is not designed for the treatment or diagnosis of any disease. It is provided AS-IS, with no warranties. User assumes all liability and responsibility for identifying and mitigating risks associated with using this software.
+
 **Additional Notes:**
 
 * Consider updating the `biosppy` library directly to accept the sampling rate as an input for optimal solution.
