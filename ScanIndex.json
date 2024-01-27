@@ -13,6 +13,19 @@
     "lowNoise": "True"
 },
 {
+    "name": "C041",
+    "site": "SiteY",
+    "scanType": "1",
+    "path": "C041/C041post",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["SCAN_2022_08_22_174011"],
+    "scanUsed": "SCAN_2022_08_22_174011",
+    "device": "001",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
     "name": "C042",
     "site": "SiteY",
     "scanType": "1",
@@ -26,6 +39,19 @@
     "lowNoise": "True"
 },
 {
+    "name": "C042",
+    "site": "SiteY",
+    "scanType": "1",
+    "path": "C042/2022_09_29_175002_C042",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_2022_09_29_191110"],
+    "scanUsed": "FULLSCAN_2022_09_29_191110",
+    "device": "001",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
     "name": "C043",
     "site": "SiteY",
     "scanType": "1",
@@ -34,6 +60,19 @@
     "subjectState": "PreThrombectomy",
     "scanNames": ["FULLSCAN_2022_10_06_191936","FULLSCAN_2022_10_06_192133"],
     "scanUsed": "FULLSCAN_2022_10_06_191936",
+    "device": "001",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
+    "name": "C043",
+    "site": "SiteY",
+    "scanType": "1",
+    "path": "C043/2022_10_06_215802_C043POST",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_2022_10_06_215831"],
+    "scanUsed": "FULLSCAN_2022_10_06_215831",
     "device": "001",
     "scansValid": "True",
     "lowNoise": "True"
@@ -65,6 +104,19 @@
     "lowNoise": "True"
 },
 {
+    "name": "C045",
+    "site": "SiteY",
+    "scanType": "1", 
+    "path": "C045/2022_10_10_213940_C045",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_2022_10_10_214152"],
+    "scanUsed": "FULLSCAN_2022_10_10_214152",
+    "device": "001",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
     "name": "C046",
     "site": "SiteY",
     "scanType": "1",
@@ -73,6 +125,19 @@
     "subjectState": "PreThrombectomy",
     "scanNames": ["FULLSCAN_2022_10_10_192310"],
     "scanUsed": "FULLSCAN_2022_10_10_192310",
+    "device": "001",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
+    "name": "C046",
+    "site": "SiteY",
+    "scanType": "1",
+    "path": "C046/2022_10_10_200225_C046POST",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_2022_10_10_200932"],
+    "scanUsed": "FULLSCAN_2022_10_10_200932",
     "device": "001",
     "scansValid": "True",
     "lowNoise": "True"
@@ -130,6 +195,19 @@
     "lowNoise": "True"
 },
 {
+    "name": "C050",
+    "site": "SiteY",
+    "scanType": "1",
+    "path": "C050/2022_10_13_222042_C050POST",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_2022_10_13_222242"],
+    "scanUsed": "FULLSCAN_2022_10_13_222242",
+    "device": "001",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
     "name": "C051",
     "site": "SiteY",
     "scanType": "1",
@@ -151,6 +229,19 @@
     "subjectState": "PreThrombectomy",
     "scanNames": ["FULLSCAN_2022_10_28_161515","FULLSCAN_2022_10_28_161745","FULLSCAN_2022_10_28_161338"],
     "scanUsed": "FULLSCAN_2022_10_28_161515",
+    "device": "001",
+    "scansValid": "True",
+    "lowNoise": "False"
+},
+{
+    "name": "C052",
+    "site": "SiteY",
+    "scanType": "1",
+    "path": "C052/2022_10_28_191450_C052postprocedure",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_2022_10_28_191728"],
+    "scanUsed": "FULLSCAN_2022_10_28_191728",
     "device": "001",
     "scansValid": "True",
     "lowNoise": "False"
@@ -195,6 +286,19 @@
     "lowNoise": "True"
 },
 {
+    "name": "C055",
+    "site": "SiteY",
+    "scanType": "1",
+    "path": "C055/2022_11_08_164634_C055post",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_2022_11_08_164839"],
+    "scanUsed": "FULLSCAN_2022_11_08_164839",
+    "device": "001",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
     "name": "C056",
     "site": "SiteY",
     "scanType": "1",
@@ -203,6 +307,19 @@
     "subjectState": "PreThrombectomy",
     "scanNames": ["FULLSCAN_2022_11_17_174803","FULLSCAN_2022_11_17_174639"],
     "scanUsed": "FULLSCAN_2022_11_17_174803",
+    "device": "001",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
+    "name": "C056",
+    "site": "SiteY",
+    "scanType": "1",
+    "path": "C056/2022_11_17_182725_c056POST OP",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_2022_11_17_183048"],
+    "scanUsed": "FULLSCAN_2022_11_17_183048",
     "device": "001",
     "scansValid": "True",
     "lowNoise": "True"
@@ -507,6 +624,19 @@
     "lowNoise": "True"
 },
 {
+    "name": "C079",
+    "site": "SiteY",
+    "scanType": "4",
+    "path": "C079/2023_05_11_172619_C079_postOP",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_4C_2023_05_11_172801"],
+    "scanUsed": "FULLSCAN_4C_2023_05_11_172801",
+    "device": "002",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
     "name": "C080",
     "site": "SiteY",
     "scanType": "4",
@@ -520,6 +650,19 @@
     "lowNoise": "True"
 },
 {
+    "name": "C080",
+    "site": "SiteY",
+    "scanType": "4",
+    "path": "C080/2023_05_17_170459_C080_post",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_4C_2023_05_17_170847"],
+    "scanUsed": "FULLSCAN_4C_2023_05_17_170847",
+    "device": "002",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
     "name": "C081",
     "site": "SiteY",
     "scanType": "4",
@@ -528,6 +671,19 @@
     "subjectState": "PreThrombectomy",
     "scanNames": ["FULLSCAN_4C_2023_05_24_102920"],
     "scanUsed": "FULLSCAN_4C_2023_05_24_102920",
+    "device": "002",
+    "scansValid": "True",
+    "lowNoise": "True"
+},
+{
+    "name": "C081",
+    "site": "SiteY",
+    "scanType": "4",
+    "path": "C081/2023_05_24_112518_c081_Post",
+    "subjectType": "LVO",
+    "subjectState": "SecondScan",
+    "scanNames": ["FULLSCAN_4C_2023_05_24_112912"],
+    "scanUsed": "FULLSCAN_4C_2023_05_24_112912",
     "device": "002",
     "scansValid": "True",
     "lowNoise": "True"

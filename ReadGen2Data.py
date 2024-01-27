@@ -511,7 +511,7 @@ class ReadGen2Data:
     '''
     def __init__(self, pathIn, deviceID=-1, correctionTypeIn=0, scanTypeIn=1, enablePlotsIn=False, filterDriftIn=False,
                  filterNoiseIn=True):
-        self.path = pathIn
+        self.path = os.path.expanduser(pathIn)
         #Check if dark hitogram is present
         tmpList = glob.glob(os.path.join(self.path,"histo_output_darkscan_ch_*"))
         if len(tmpList)==0:
@@ -960,15 +960,6 @@ class ReadGen2Data:
                 
     def WaveformVertNorm(self, x, period):
         # from Soren's containwaveform2 in headscan_gen2_fcns_v5.py
-    
-        d = np.floor(0.7*period)
-        p1 = find_peaks(-x, distance=d)
-        p1 = p1[0]
-        z1 = x[p1]
-        p2 = find_peaks(x, distance=d)
-        p2 = p2[0]
-        z2 = x[p2]
-    
         d = np.floor(0.7*period)
         x = self.flattenbottom(x, d)
         x = self.flattenbottom(x, d)
@@ -1072,15 +1063,18 @@ class ReadGen2Data:
                                 pulseSegments[ind] = []
                                 onsets[ind] = []
                                 pulseValid[ind] = []
-
                 self.channelData[loc].goldenPulse   = goldenPulse[0]
                 self.channelData[loc].pulseSegments = pulseSegments[0]
                 self.channelData[loc].onsets   = onsets[0]
                 self.channelData[loc].pulseValid    = pulseValid[0]
+                self.channelData[loc].contrastVertNorm = self.WaveformVertNorm(copy.deepcopy(self.channelData[loc].contrast), np.diff(self.channelData[loc].onsets).mean())
+                self.channelData[loc].imgMeanVertNorm = self.WaveformVertNorm(copy.deepcopy(self.channelData[loc].correctedMean), np.diff(self.channelData[loc].onsets).mean())
                 self.channelData[loc+pairingIncrement].goldenPulse   = goldenPulse[1]
                 self.channelData[loc+pairingIncrement].pulseSegments = pulseSegments[1]
                 self.channelData[loc+pairingIncrement].onsets = onsets[1]
                 self.channelData[loc+pairingIncrement].pulseValid = pulseValid[1]
+                self.channelData[loc+pairingIncrement].imgMeanVertNorm = self.WaveformVertNorm(copy.deepcopy(self.channelData[loc+pairingIncrement].correctedMean), np.diff(self.channelData[loc+pairingIncrement].onsets).mean())
+                self.channelData[loc+pairingIncrement].contrastVertNorm = self.WaveformVertNorm(copy.deepcopy(self.channelData[loc+pairingIncrement].contrast), np.diff(self.channelData[loc+pairingIncrement].onsets).mean())
                 if self.enablePlots:
                     plt.subplot(2, 2, 1)
                     plt.plot(goldenPulse[0])
